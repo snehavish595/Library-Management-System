@@ -1,0 +1,50 @@
+body {
+  padding-top: 70px;
+  transition: 0.3s ease-in-out;
+}
+
+/* HERO */
+.hero-section {
+  background: linear-gradient(135deg, #007bff, #6610f2);
+  padding: 70px 20px;
+  color: white;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+/* BOOK CARDS */
+.book-card {
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 15px;
+  transition: 0.3s;
+}
+.book-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+}
+
+/* DARK MODE */
+.dark-mode {
+  background: #0d1117;
+  color: white;
+}
+.dark-mode .card,
+.dark-mode .book-card {
+  background: #1c1f26;
+  color: white;
+}
+
+.about-section p, 
+.about-section li {
+  font-size: 15px;
+}
+
+.about-section h5 {
+  font-weight: bold;
+}
+
+.badge {
+  border-radius: 8px;
+}
+
